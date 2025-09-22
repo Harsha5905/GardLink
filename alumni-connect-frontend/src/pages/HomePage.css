@@ -1,0 +1,108 @@
+/* Using the Poppins font from the global stylesheet */
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background: linear-gradient(135deg, #1f005c, #5b0060, #870060, #ac2460);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-content {
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.cta-buttons button {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+  background-color: #ff6f61; /* A nice coral color */
+  transition: all 0.3s ease;
+}
+
+.cta-buttons button:hover {
+  background-color: #ff4c4c;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Content Sections */
+.content-section {
+  padding: 80px 40px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-section {
+  background-color: white;
+  color: #333;
+}
+
+.about-section p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.features-section {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.feature-item {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-item:hover {
+  transform: translateY(-5px);
+}
+
+.feature-item h3 {
+  color: #ac2460;
+  margin-bottom: 10px;
+}
